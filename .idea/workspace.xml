@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d5af310-b40e-483e-93a1-81e91e1243b0" name="Changes" comment="This is BackEnd for Telegraph">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GIT PROJECTS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_istack_istack_commons_runtime_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_5_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_api_0_11_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_activation_jakarta_activation_api_2_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_persistence_jakarta_persistence_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_transaction_jakarta_transaction_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_antlr_antlr4_runtime_4_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_10_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_10_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_9_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_angus_angus_activation_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_core_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_runtime_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_txw2_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_6_0_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_5_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_2_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_2_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_6_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aspects_6_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_6_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_6_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_6_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_6_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_6_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_6_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_orm_6_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_6_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_6_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_6_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_6_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/TelegraphBack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/TelegraphBack.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/.gradle/7.6.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/.gradle/7.6.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/.gradle/7.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/.gradle/7.6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/TelegraphBackApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/config/BeanConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/config/GlobalExceptions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/controller/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/controller/ContentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/dto/ContentCreateDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/dto/UserCreateDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/entity/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/entity/ContentEntity$ContentEntityBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/entity/ContentEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/entity/ContentLinksEntity$ContentLinksEntityBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/entity/ContentLinksEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/entity/UserEntity$UserEntityBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/entity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/exceptions/ContentNotEmptyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/exceptions/RequestValidationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/exceptions/UniqueException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/exceptions/UserCheckException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/repository/ContentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/repository/LinkRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/service/BaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/service/LinkService/LinkService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/service/LinkService/LinkServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/service/UserService/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/service/UserService/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/service/contentService/ContentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/classes/java/main/com/example/telegraphback/service/contentService/ContentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/tmp/compileJava/compileTransaction/stash-dir/ContentServiceImpl.class.uniqueId0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/config/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/config/GlobalExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/dto/ContentCreateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/dto/UserCreateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/entity/ContentLinksEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/exceptions/ContentNotEmptyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/exceptions/PhoneNumberNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/exceptions/RequestValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/exceptions/UniqueException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/exceptions/UserCheckException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/repository/LinkRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/service/LinkService/LinkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/service/LinkService/LinkServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/service/UserService/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/service/authService/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/service/contentService/ContentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/service/contentService/ContentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/service/jwtService/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/TelegraphBack.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TelegraphBack.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/.gradle/7.6.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/.gradle/7.6.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/.gradle/7.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/.gradle/7.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/.gradle/7.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/controller/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/controller/ContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/entity/ContentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/entity/ContentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/repository/ContentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/repository/ContentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/service/UserService/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/service/UserService/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/service/contentService/contentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/src/main/java/com/example/telegraphback/service/contentService/contentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegraphBack/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TelegraphBack/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/TelegraphBack">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/TelegraphBack">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TelegraphBack" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="build-telegraph-backend" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="build-telegraph-backend" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk-17.0.2/lib/src.zip!/java.base/java/lang/Thread.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/3.1.0/a0ad9da028d4f569c97f76f6286e095e24ab9cee/spring-data-commons-3.1.0-sources.jar!/org/springframework/data/domain/Pageable.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QH0yfffbwavlZAjUHBNqbLf1Hp" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/PDP/TelegraphBackend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "spring.configuration.checksum": "0196441c453eb16961ae001acda0a1f1",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.telegraphback.exceptions" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TelegraphBackApplication">
+    <configuration name="TelegraphBackApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.telegraphback.TelegraphBackApplication" />
+      <module name="TelegraphBack.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.telegraphback.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelegraphBackApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="com.example.TelegraphBack.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.telegraphback.TelegraphBackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelegraphBackApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="uz.jk.TelegraphBack.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.telegraphback.TelegraphBackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelegraphBackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="TelegraphBack.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.telegraphback.TelegraphBackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TelegraphBackApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d5af310-b40e-483e-93a1-81e91e1243b0" name="Changes" comment="" />
+      <created>1684995457404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684995457404</updated>
+      <workItem from="1684995458429" duration="227000" />
+      <workItem from="1684995806220" duration="1327000" />
+      <workItem from="1684997306216" duration="17368000" />
+      <workItem from="1685031503731" duration="2828000" />
+      <workItem from="1685076243501" duration="30988000" />
+      <workItem from="1685162427016" duration="28048000" />
+      <workItem from="1685253771965" duration="20798000" />
+      <workItem from="1685333646812" duration="18207000" />
+      <workItem from="1685356649732" duration="1286000" />
+      <workItem from="1685369084177" duration="3140000" />
+      <workItem from="1685420003645" duration="1168000" />
+      <workItem from="1685421246910" duration="96000" />
+      <workItem from="1685968327551" duration="1457000" />
+      <workItem from="1686029801407" duration="9971000" />
+    </task>
+    <task id="LOCAL-00001" summary="This is BackEnd for Telegraph">
+      <created>1685421006246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685421006246</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This is BackEnd for Telegraph" />
+    <option name="LAST_COMMIT_MESSAGE" value="This is BackEnd for Telegraph" />
+  </component>
+</project>

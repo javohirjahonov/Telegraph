@@ -20,4 +20,6 @@ public interface UserRepository extends JpaRepository<UserEntity, UUID> {
     @Query(value = "SELECT u FROM users u WHERE u.id IN (SELECT u.id FROM contents WHERE u.id = :id)")
     List<UserEntity> findByContentsId(UUID id);
 
+    Optional<UserEntity> findByPhoneNumber(String phoneNumber);
+
 }

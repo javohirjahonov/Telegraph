@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="TelegraphBack" external.linked.project.path="$MODULE_DIR$/../../TelegraphBack" external.root.project.path="$MODULE_DIR$/../../TelegraphBack" external.system.id="GRADLE" external.system.module.group="uz.jk" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../TelegraphBack">
+      <excludeFolder url="file://$MODULE_DIR$/../../TelegraphBack/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TelegraphBack/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
